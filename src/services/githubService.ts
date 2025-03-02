@@ -5,13 +5,12 @@ import { addCandidateFromAnalysis } from './candidateService';
 import dotenv from 'dotenv';
 dotenv.config();
 
-const GITHUB_API_TOKEN = process.env.GITHUB_API_TOKEN;
-
 
 // GitHub API base URL
 const GITHUB_API_BASE_URL = 'https://api.github.com';
 
-
+// GitHub API token from environment variables
+const GITHUB_API_TOKEN = import.meta.env.VITE_GITHUB_API_TOKEN || '';
 
 // Configure axios with auth header
 const githubAxios = axios.create({
