@@ -45,5 +45,5 @@ This project is licensed under the MIT License.
 Feel free to fork the repo and submit pull requests to enhance Hupp!
 
 ---
-Developed with ❤️ by [Shivateja Keerthi](https://shivatejakeerthi.com)
+Developed with ❤️ by [Shivateja Keerthi](https://shivatejakeerthi.github.io)
 
